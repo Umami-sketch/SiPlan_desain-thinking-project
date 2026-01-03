@@ -377,7 +377,9 @@
                 <i class="fas fa-play-circle card-icon"></i>
                 <h3 class="card-title">VIDEO DEMO</h3>
                 <p class="card-desc">Tonton video demo dan penjelasan lengkap tentang SiPlan. Pelajari bagaimana aplikasi ini dapat mengubah cara perencanaan belanja pedagang mikro.</p>
-                <a href="#" class="btn" id="videoBtn">
+                <!-- LINK VIDEO DEMO TELAH DIMASUKKAN -->
+                <a href="https://youtu.be/FYVFqbDQYLg" 
+                   target="_blank" class="btn">
                    <i class="fas fa-play"></i> Tonton Video
                 </a>
             </div>
@@ -416,7 +418,7 @@
         <div class="contact-info">
             <div class="contact-item">
                 <i class="fas fa-envelope contact-icon"></i>
-                <span>umamiocha@gmail.com</span>
+                <span>25523199@students.uii.ac.id</span>
             </div>
             <div class="contact-item">
                 <i class="fas fa-phone contact-icon"></i>
@@ -428,19 +430,10 @@
             </div>
         </div>
         
-        <p style="margin-top: 40px; opacity: 0.7; font-size: 0.9rem;">© 2023 SiPlan by Bittersweet. All rights reserved.</p>
+        <p style="margin-top: 40px; opacity: 0.7; font-size: 0.9rem;">© 2025 SiPlan by Bittersweet. </p>
     </footer>
 
     <script>
-        // Fungsi untuk menangani klik tombol video
-        document.getElementById('videoBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            const link = prompt("Masukkan link video demo (YouTube/Vimeo):", "https://youtu.be/...");
-            if (link && link.trim() !== '') {
-                window.open(link.trim(), '_blank');
-            }
-        });
-        
         // Animasi sederhana saat halaman dimuat
         document.addEventListener('DOMContentLoaded', function() {
             const cards = document.querySelectorAll('.card');
